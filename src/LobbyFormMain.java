@@ -44,7 +44,7 @@ public class LobbyFormMain extends JFrame implements GameClientListener, ActionL
 	// コンストラクタ
 	public LobbyFormMain() {
 		this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-		// クローズ時処理：サーバから切断
+		// クローズ時処理：サーバから切断1
 		this.addWindowListener(new WindowAdapter() {
 			public void windowClosed(WindowEvent arg0) {
 				// disconnectメソッド呼び出し
